@@ -16,7 +16,7 @@ function App() {
   });
 
   function calculateStartTime() {
-    const customDate = new Date("December 7, 2023 18:30:00"); // 6:30 PM on December 7, 2023
+    const customDate = new Date("December 7, 2023 18:00:00"); // 6:00 PM on December 7, 2023
     return customDate.getTime();
   }
 
