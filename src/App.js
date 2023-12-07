@@ -16,9 +16,8 @@ function App() {
   });
 
   function calculateStartTime() {
-    const today = new Date();
-    today.setHours(15, 15, 0, 0); // Set the time to 3:15 PM today
-    return today.getTime();
+    const customDate = new Date("December 7, 2023 18:30:00"); // 6:30 PM on December 7, 2023
+    return customDate.getTime();
   }
 
   useEffect(() => {
